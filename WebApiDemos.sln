@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Response.ModelAsJson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.MinimalAPI.ToDo", "WebApi.MinimalAPI.ToDo\WebApi.MinimalAPI.ToDo.csproj", "{F73706B3-9A1D-4490-A6FE-36BD34B8DCC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.MinimalAPI.Custom1", "WebApi.MinimalAPI.Custom1\WebApi.MinimalAPI.Custom1.csproj", "{FD05100A-EB8E-40B9-BCA1-15A3DD411E85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F73706B3-9A1D-4490-A6FE-36BD34B8DCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F73706B3-9A1D-4490-A6FE-36BD34B8DCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73706B3-9A1D-4490-A6FE-36BD34B8DCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD05100A-EB8E-40B9-BCA1-15A3DD411E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD05100A-EB8E-40B9-BCA1-15A3DD411E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD05100A-EB8E-40B9-BCA1-15A3DD411E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD05100A-EB8E-40B9-BCA1-15A3DD411E85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
