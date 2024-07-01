@@ -31,6 +31,13 @@ namespace WebApi.MinimalAPI.ToDo.EndPoints
 
         private static IResult GetAllTodoItems(ITodoItemService todoItemService)
         {
+            //For the error "System.InvalidOperationException: 'Cannot resolve scoped service 'ToDo.Services.ITodoItemService' from root provider'" is likely caused by the way you're registering the ITodoItemService service
+            //Register the IHttpContextAccessor service in Program.cs
+            //builder.Services.AddHttpContextAccessor();
+            //..
+            //Inject the IHttpContextAccessor into your TodoItemsEndpoints class and use it to resolve the ITodoItemService instance
+            //var todoItemService = httpContextAccessor.HttpContext.RequestServices.GetRequiredService<ITodoItemService>();
+
             var items = todoItemService.GetAllTodoItems();
             return Results.Ok(items);
         }
