@@ -16,6 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<ITodoItemService, TodoItemService>();
 
+// Register the IHttpContextAccessor service
+//builder.Services.AddHttpContextAccessor();
 //-------------------------------------------------------------
 
 
