@@ -73,7 +73,7 @@ app.MapGet("/test7", async (HttpResponse response) =>
 });
 
 
-app.MapGet("/test8", () => Results.Json(new { id = 1, name = "john smith" },
+app.MapGet("/test8", () => Results.Json(new { Id = 1, Name = "john Smith" },
                                         new JsonSerializerOptions(JsonSerializerDefaults.Web)
                                         {
                                             WriteIndented = true,
