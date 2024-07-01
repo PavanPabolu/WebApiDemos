@@ -1,0 +1,6 @@
+@WebApi.Response.ModelAsJson_HostAddress = http://localhost:5114
+
+GET {{WebApi.Response.ModelAsJson_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
